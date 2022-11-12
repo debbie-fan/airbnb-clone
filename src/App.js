@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <img src={require('./assets/airbnb-logo.png')} alt='airbnb logo' className='nav-logo'/>
-      </nav>
+      <Navbar/>
+      <Hero/>
     </div>
   );
 }
